@@ -1,0 +1,32 @@
+  .contact-container {
+    background: url('../../public/images/contact.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    
+  }
+  
+  .contact {
+    width: 750px;
+    padding-top: 23rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+  }
+
+  .align{
+    /* width: 100%; */
+    text-align: left; 
+    display: inline;
+  }
+
+a {
+  color: gold;
+}
+
